@@ -11,7 +11,7 @@ const App = () => {
   return (
     <CurrentUserProvider>
       <CurrentUserChecker>
-        <Router>
+        <Router basename='/medium_clone'>
           <Topbar />
           <Routes />
         </Router>
